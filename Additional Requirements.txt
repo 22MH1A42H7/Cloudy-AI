@@ -1,0 +1,13 @@
+1) System-Level Dependencies:
+sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg -y
+
+2) Install flac for audio file handling
+sudo apt-get install flac -y
+
+3) MongoDB Client (if you're using MongoDB for chat logs): Add pymongo if MongoDB is used:
+pymongo==4.4.1
+
+4) If any issue arises with pyaudio installation, use:
+
+pip install pipwin
+pipwin install pyaudio
