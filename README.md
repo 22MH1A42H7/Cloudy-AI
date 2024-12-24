@@ -1,6 +1,6 @@
 # CloudyAI: Interactive AI-Powered Chatbot
 
-CloudyAI is an AI-powered chatbot application designed to deliver an interactive user experience by integrating voice recognition, real-time image processing, and generative AI. Built with scalability and user-friendliness in mind, the application leverages the power of modern cloud technologies to handle diverse queries efficiently.
+CloudyAI is an AI-powered chatbot application designed to deliver an interactive user experience by integrating voice recognition, real-time image processing, and generative AI. With a bot persona tailored for assisting in the learning of cloud platforms, DevOps practices, and related technologies, CloudyAI serves as both an interactive assistant and an educational tool. Built with scalability and user-friendliness in mind, the application leverages the power of modern cloud technologies to handle diverse queries efficiently.
 
 ## Features
 
