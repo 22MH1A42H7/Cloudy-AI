@@ -40,3 +40,57 @@ Follow these steps to set up and run CloudyAI:
    ```bash
    git clone https://github.com/your-username/cloudyai.git
    cd cloudyai
+2. **Set Up a Python Virtual Environment**
+   - Create and activate a virtual environment:
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+   - Install the required Python packages:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Install Node.js (Optional for Frontend)**
+   - Install Node.js and NPM if needed for additional frontend enhancements:
+     ```bash
+     sudo apt update
+     sudo apt install nodejs npm
+     ```
+
+4. **Configure Environment Variables**
+   - Replace placeholders in `app.py` with your credentials:
+     - **Gemini API Key**: Replace `HERE` in the `genai.configure(api_key="HERE")` line with your actual API key.
+     - **AWS Credentials**: Replace `aws_access_key_id` and `aws_secret_access_key` placeholders with your AWS access credentials.
+
+5. **Run the Flask Application**
+   - Start the server:
+     ```bash
+     flask run --host=0.0.0.0 --port=5000
+     ```
+
+6. **Access the Application**
+   - Open your browser and navigate to:
+     ```
+     http://<EC2-public-IP>:5000
+     ```
+
+## Future Enhancements
+
+- **Database Integration**: Integrate MongoDB for logging user interactions and chat history.
+- **Advanced User Authentication**: Add secure user authentication and role-based access control.
+- **Image Features Expansion**: Incorporate additional image recognition features such as object tracking or facial emotion analysis.
+- **Containerization**: Dockerize the application for improved portability and easier deployment.
+- **CI/CD Pipeline**: Implement continuous integration and deployment using GitHub Actions or AWS CodePipeline.
+- **Multi-Language Support**: Extend chatbot capabilities to support multiple languages.
+
+## Author
+
+**[Your Name]**  
+Cloud and AI Enthusiast | Software Developer  
+- **LinkedIn**: [https://www.linkedin.com/in/Satya Praveen M](https://www.linkedin.com/in/satya-praveen-m-36442725b/)  
+- **GitHub**: [https://github.com/Satya Praveen M](https://github.com/22MH1A42H7)  
+
+---
+
+Thank you for exploring **CloudyAI**! If you have suggestions or would like to contribute, feel free to create an issue or submit a pull request.
