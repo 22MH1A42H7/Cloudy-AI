@@ -86,8 +86,8 @@ Follow these steps to set up and run CloudyAI:
 
 ## Author
 
-**[Your Name]**  
-Cloud and AI Enthusiast | Software Developer  
+**Satya Praveen M**  
+Cloud and Devops Enthusiast  
 - **LinkedIn**: [https://www.linkedin.com/in/Satya Praveen M](https://www.linkedin.com/in/satya-praveen-m-36442725b/)  
 - **GitHub**: [https://github.com/Satya Praveen M](https://github.com/22MH1A42H7)  
 
